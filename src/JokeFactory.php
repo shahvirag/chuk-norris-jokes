@@ -8,7 +8,7 @@ class JokeFactory
         'The First rule of Chuck Norris is: you do not talk about Chuck Norris.',
         'Chuck Norris does not wear a condom. Because there is no such thing as protection from Chuck Norris.',
         'Chuck Norris counted to infinity... Twice.',
-        'If you can see Chuck Norris, he can see you. If you can\'t see Chuck Norris you may be only seconds away from death.'
+        'If you can see Chuck Norris, he can see you. If you can\'t see Chuck Norris you may be only seconds away from death.',
     ];
 
     public function __construct(array $jokes = null)
