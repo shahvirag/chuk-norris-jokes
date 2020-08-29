@@ -1,0 +1,26 @@
+{
+    "name": "shahvirag/chuk-norris-jokes",
+    "description": "Create random Chuk norris jokes",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Virah Shah",
+            "email": "shahvirag07@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Shahvirag\\ChukNorrisJokes\\" : "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Shahvirag\\ChukNorrisJokes\\Tests\\" : "test/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.3"
+    }
+}
